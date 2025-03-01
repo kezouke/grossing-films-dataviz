@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Highest-Grossing Films - Dark Dashboard</title>
+  <!-- Montserrat from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Chart.js (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="dark-theme">
+
+  <!-- NAV / HEADER -->
+  <header class="app-header">
+    <div class="logo-area">
+      <!-- Wrap the logo in a link pointing to your GitHub -->
+      <a href="https://github.com/kezouke" target="_blank">
+        <img src="profile.jpeg" alt="GitHub Profile Logo" class="app-logo" />
+      </a>
+      <div class="app-title">Highest-Grossing Films</div>
+    </div>
+    <nav class="nav-links">
+      <a href="#" class="nav-link">Home</a>
+      <a href="#stats" class="nav-link">Stats</a>
+      <a href="#table" class="nav-link">All Films</a>
+      <a href="#about" class="nav-link">About</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <h1>The Gold Standard in Global Box Office</h1>
+    <p>
+      Explore the highest-grossing movies of all time with a data-driven approach
+      — from record-shattering blockbusters to the billion-dollar club. Discover
+      how a handful of franchises continue to dominate ticket sales worldwide.
+    </p>
+  </section>
+
+  <!-- TOP STATS SECTION -->
+  <section class="top-stats" id="stats">
+    <div class="stats-card">
+      <h2 id="filmCount">0</h2>
+      <p>Number of Films</p>
+    </div>
+    <div class="stats-card">
+      <h2 id="highestBoxOffice">$0</h2>
+      <p>Highest Single Film Gross</p>
+    </div>
+    <div class="stats-card">
+      <h2 id="totalBoxOffice">$0</h2>
+      <p>Total Box Office</p>
+    </div>
+  </section>
+
+  <!-- DASHBOARD CHARTS -->
+  <section class="dashboard-grid">
+    <div class="chart-container">
+      <h3>Top 10 Highest-Grossing Films</h3>
+      <canvas id="chartTop10"></canvas>
+    </div>
+
+    <div class="chart-container">
+      <h3>Director Leaderboard (Total Box Office)</h3>
+      <canvas id="chartDirectors"></canvas>
+    </div>
+
+    <div class="chart-container">
+      <h3>Box Office Over Time</h3>
+      <canvas id="chartOverTime"></canvas>
+    </div>
+
+    <!-- Smaller container for Country Distribution -->
+    <div class="chart-container chart-container-small">
+      <h3>Country Distribution</h3>
+      <canvas id="chartCountries"></canvas>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE TABLE -->
+  <section class="table-section" id="table">
+    <h2>All Films</h2>
+    <div class="controls">
+      <input type="text" id="searchBox" placeholder="Search by film title..." />
+      <button id="sortByYear">Sort by Year</button>
+      <button id="sortByBoxOffice">Sort by Box Office</button>
+    </div>
+    <div id="filmsTableWrapper"></div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="app-footer" id="about">
+    <p>
+      Built by <strong>kezouke aka elya</strong> &mdash;
+      <a href="https://github.com/kezouke" target="_blank">GitHub</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

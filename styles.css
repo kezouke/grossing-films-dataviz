@@ -1,0 +1,257 @@
+/*
+  Minimal Dark Theme with Gold Accent
+  and Montserrat as the primary font.
+*/
+
+/* CSS Variables */
+:root {
+  --bg-color: #121212;
+  --header-bg: #1E1E1E;
+  --card-bg: #1A1A1A;
+  --text-color: #FFFFFF;
+  --subtle-text: #AAAAAA;
+  --accent-color: #D4AF37; /* Updated gold shade */
+  --font-primary: 'Montserrat', sans-serif;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.dark-theme {
+  font-family: var(--font-primary);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+/* HEADER */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--header-bg);
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #333;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+}
+
+.app-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 0.8rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.app-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 400;
+  padding: 0.25rem 0.5rem;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--accent-color);
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  border-bottom: 1px solid #333;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero p {
+  color: var(--subtle-text);
+  font-size: 1.05rem;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* TOP STATS CARDS */
+.top-stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  margin: 2rem 0;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stats-card {
+  background-color: var(--card-bg);
+  flex: 1 1 200px;
+  text-align: center;
+  margin: 0 1rem;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+  min-width: 180px;
+}
+
+.stats-card h2 {
+  font-size: 2rem;
+  color: var(--accent-color);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.stats-card p {
+  color: var(--subtle-text);
+  font-size: 0.95rem;
+}
+
+/* GRID FOR CHARTS */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.chart-container {
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+.chart-container h3 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* Make the Country Distribution chart smaller */
+.chart-container-small {
+  max-width: 500px; /* or whatever width you prefer */
+  justify-self: center;
+}
+
+/* TABLE SECTION */
+.table-section {
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+}
+
+.table-section h2 {
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.controls {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.controls input, .controls button {
+  padding: 0.6rem;
+  border: 1px solid #444;
+  background: #2f2f2f;
+  color: var(--text-color);
+  border-radius: 4px;
+  font-family: var(--font-primary);
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.controls input:focus, .controls button:focus {
+  border-color: var(--accent-color);
+}
+
+#filmsTableWrapper table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#filmsTableWrapper th, #filmsTableWrapper td {
+  border-bottom: 1px solid #444;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+#filmsTableWrapper th {
+  background: #333;
+  color: var(--subtle-text);
+  font-weight: 400;
+}
+
+#filmsTableWrapper td {
+  font-size: 0.95rem;
+}
+
+/* FOOTER */
+.app-footer {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 2rem 0;
+  color: var(--subtle-text);
+  font-size: 0.85rem;
+  background-color: var(--card-bg);
+  border-top: 1px solid #333;
+}
+
+.app-footer a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
+}
+
+/* RESPONSIVE LAYOUT */
+@media (max-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr; /* Single column */
+  }
+  .top-stats {
+    flex-direction: column;
+    align-items: center;
+  }
+  .stats-card {
+    margin: 0.5rem 0;
+  }
+}

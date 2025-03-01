@@ -1,0 +1,506 @@
+[
+  {
+    "id": 1,
+    "title": "Avatar",
+    "release_year": 2009,
+    "director": "James Cameron",
+    "box_office": 2923000000.0,
+    "country": "United States",
+    "insight": "James Cameron's visually stunning film Avatar became the highest-grossing film of all time upon its release in 2009."
+  },
+  {
+    "id": 2,
+    "title": "Avengers: Endgame",
+    "release_year": 2019,
+    "director": "Anthony Russo Joe Russo",
+    "box_office": 2799000000.0,
+    "country": "United States",
+    "insight": "Avengers: Endgame is a 2019 superhero film that concludes the Infinity Saga, following the surviving members of the Avengers as they attempt to undo the damage caused by Thanos."
+  },
+  {
+    "id": 3,
+    "title": "Avatar: The Way of Water",
+    "release_year": 2022,
+    "director": "James Cameron",
+    "box_office": 2320000000.0,
+    "country": "United States",
+    "insight": "Avatar: The Way of Water is a visually stunning sequel that expands on the world of Pandora, exploring themes of family, identity, and environmentalism."
+  },
+  {
+    "id": 4,
+    "title": "Titanic",
+    "release_year": 1997,
+    "director": "James Cameron",
+    "box_office": 2264000000.0,
+    "country": "United States",
+    "insight": "The film \"Titanic\" is a timeless epic romance disaster that tells the tragic story of the 1912 sinking of the RMS Titanic."
+  },
+  {
+    "id": 5,
+    "title": "Star Wars: The Force Awakens",
+    "release_year": 2015,
+    "director": "J. J. Abrams",
+    "box_office": 2070000000.0,
+    "country": "United States",
+    "insight": "Star Wars: The Force Awakens is a 2015 epic space opera film that revitalized the iconic franchise with a new generation of characters."
+  },
+  {
+    "id": 6,
+    "title": "Avengers: Infinity War",
+    "release_year": 2018,
+    "director": "Anthony Russo, Joe Russo",
+    "box_office": 2052000000.0,
+    "country": "United States",
+    "insight": "Avengers: Infinity War is a 2018 superhero film that marks a pivotal moment in the Marvel Cinematic Universe as the Avengers face off against Thanos."
+  },
+  {
+    "id": 7,
+    "title": "Ne Zha 2",
+    "release_year": 2025,
+    "director": "Jiaozi",
+    "box_office": 1940000000.0,
+    "country": "China",
+    "insight": "No information is available for the film Ne Zha 2 as it is scheduled for release in 2025."
+  },
+  {
+    "id": 8,
+    "title": "Spider-Man: No Way Home",
+    "release_year": 2021,
+    "director": "Jon Watts",
+    "box_office": 1923000000.0,
+    "country": "United States",
+    "insight": "Spider-Man: No Way Home is a Marvel superhero film that follows Spider-Man as he deals with the consequences of his secret identity being revealed."
+  },
+  {
+    "id": 9,
+    "title": "Inside Out 2",
+    "release_year": 2024,
+    "director": "Kelsey Mann",
+    "box_office": 1699000000.0,
+    "country": "United States",
+    "insight": "Inside Out 2, directed by Kelsey Mann, is an upcoming American animated film and the sequel to the 2015 critically acclaimed original."
+  },
+  {
+    "id": 10,
+    "title": "Jurassic World",
+    "release_year": 2015,
+    "director": "Colin Trevorrow",
+    "box_office": 1671000000.0,
+    "country": "United States",
+    "insight": "Jurassic World is a science fiction adventure film that takes place 22 years after the events of the original Jurassic Park."
+  },
+  {
+    "id": 11,
+    "title": "The Lion King",
+    "release_year": 2019,
+    "director": "Jon Favreau",
+    "box_office": 1657000000.0,
+    "country": "United States",
+    "insight": "The 2019 version of The Lion King is a photorealistic computer-animated remake of the 1994 animated classic, directed by Jon Favreau."
+  },
+  {
+    "id": 12,
+    "title": "The Avengers",
+    "release_year": 2012,
+    "director": "Joss Whedon",
+    "box_office": 1521000000.0,
+    "country": "United States",
+    "insight": "The Avengers, directed by Joss Whedon, is a superhero film that unites iconic Marvel characters in a battle to save the world from an alien invasion."
+  },
+  {
+    "id": 13,
+    "title": "Furious 7",
+    "release_year": 2015,
+    "director": "James Wan",
+    "box_office": 1515000000.0,
+    "country": "United States",
+    "insight": "Furious 7 is an action-packed film that pays tribute to the late Paul Walker while delivering high-octane action and stunning stunts."
+  },
+  {
+    "id": 14,
+    "title": "Top Gun: Maverick",
+    "release_year": 2022,
+    "director": "Joseph Kosinski",
+    "box_office": 1496000000.0,
+    "country": "United States",
+    "insight": "Top Gun: Maverick is a high-flying action sequel that sees Tom Cruise reprising his iconic role as Maverick."
+  },
+  {
+    "id": 15,
+    "title": "Frozen 2",
+    "release_year": 2019,
+    "director": "Chris Buck Jennifer Lee",
+    "box_office": 1453000000.0,
+    "country": "United States",
+    "insight": "Frozen 2 is a Disney animated film that follows sisters Elsa and Anna on a perilous journey to save their kingdom of Arendelle."
+  },
+  {
+    "id": 16,
+    "title": "Barbie",
+    "release_year": 2023,
+    "director": "Greta Gerwig",
+    "box_office": 1446000000.0,
+    "country": "United States",
+    "insight": "Barbie, directed by Greta Gerwig, is a 2023 American film that has achieved massive box office success with over $1.44 billion in earnings."
+  },
+  {
+    "id": 17,
+    "title": "Avengers: Age of Ultron",
+    "release_year": 2015,
+    "director": "Joss Whedon",
+    "box_office": 1405000000.0,
+    "country": "United States",
+    "insight": "Avengers: Age of Ultron is a superhero film that explores the Avengers team's battle against an artificial intelligence threat."
+  },
+  {
+    "id": 18,
+    "title": "The Super Mario Bros. Movie",
+    "release_year": 2023,
+    "director": "Aaron Horvath Michael Jelenic",
+    "box_office": 1363000000.0,
+    "country": "United States",
+    "insight": "The Super Mario Bros. Movie is an animated adventure that brings the iconic Nintendo characters to the big screen."
+  },
+  {
+    "id": 19,
+    "title": "Black Panther",
+    "release_year": 2018,
+    "director": "Ryan Coogler",
+    "box_office": 1350000000.0,
+    "country": "United States",
+    "insight": "Black Panther is a groundbreaking superhero film that celebrates African culture and identity."
+  },
+  {
+    "id": 20,
+    "title": "Harry Potter and the Deathly Hallows \u2013 Part 2",
+    "release_year": 2011,
+    "director": "David Yates",
+    "box_office": 1342000000.0,
+    "country": "United Kingdom",
+    "insight": "Harry Potter and the Deathly Hallows \u2013 Part 2 is the epic conclusion to the beloved Harry Potter film series."
+  },
+  {
+    "id": 21,
+    "title": "Deadpool & Wolverine",
+    "release_year": 2024,
+    "director": "Shawn Levy",
+    "box_office": 1338000000.0,
+    "country": "United States",
+    "insight": "Deadpool & Wolverine is an upcoming American superhero film directed by Shawn Levy, featuring the iconic characters Deadpool and Wolverine."
+  },
+  {
+    "id": 22,
+    "title": "Star Wars: The Last Jedi",
+    "release_year": 2017,
+    "director": "Rian Johnson",
+    "box_office": 1334000000.0,
+    "country": "United States",
+    "insight": "The Last Jedi received widespread critical acclaim for its bold narrative choices and stunning visuals."
+  },
+  {
+    "id": 23,
+    "title": "Jurassic World: Fallen Kingdom",
+    "release_year": 2018,
+    "director": "J. A. Bayona",
+    "box_office": 1310000000.0,
+    "country": "",
+    "insight": "Jurassic World: Fallen Kingdom is a 2018 science fiction adventure film that follows a rescue mission to save the remaining dinosaurs from a volcanic eruption on Isla Nublar."
+  },
+  {
+    "id": 24,
+    "title": "Frozen",
+    "release_year": 2013,
+    "director": "Chris Buck Jennifer Lee",
+    "box_office": 1280000000.0,
+    "country": "United States",
+    "insight": "Frozen is a timeless Disney classic that tells the story of two sisters, Elsa and Anna, and their journey of love, acceptance, and self-discovery."
+  },
+  {
+    "id": 25,
+    "title": "Beauty and the Beast",
+    "release_year": 2017,
+    "director": "Bill Condon",
+    "box_office": 1266000000.0,
+    "country": "United States",
+    "insight": "The 2017 live-action adaptation of Beauty and the Beast, directed by Bill Condon, is a retelling of the classic Disney fairy tale."
+  },
+  {
+    "id": 26,
+    "title": "Incredibles 2",
+    "release_year": 2018,
+    "director": "Brad Bird",
+    "box_office": 1243000000.0,
+    "country": "United States",
+    "insight": "Incredibles 2 is a computer-animated superhero film that follows the Parr family as they try to restore the public's trust in superheroes."
+  },
+  {
+    "id": 27,
+    "title": "The Fate of the Furious",
+    "release_year": 2017,
+    "director": "F. Gary Gray",
+    "box_office": 1236000000.0,
+    "country": "",
+    "insight": "The Fate of the Furious is the eighth installment in the Fast and Furious franchise, where Dominic Toretto betrays his team to work with a cyberterrorist."
+  },
+  {
+    "id": 28,
+    "title": "Iron Man 3",
+    "release_year": 2013,
+    "director": "Shane Black",
+    "box_office": 1266000000.0,
+    "country": "United States",
+    "insight": "Iron Man 3 is a 2013 superhero film that explores Tony Stark's personal struggles and vulnerabilities."
+  },
+  {
+    "id": 29,
+    "title": "Minions",
+    "release_year": 2015,
+    "director": "Pierre Coffin Kyle Balda",
+    "box_office": 1159000000.0,
+    "country": "United States",
+    "insight": "Minions is a prequel to the Despicable Me series, following the origins of the Minion characters."
+  },
+  {
+    "id": 30,
+    "title": "Captain America: Civil War",
+    "release_year": 2016,
+    "director": "Anthony Russo Joe Russo",
+    "box_office": 1155000000.0,
+    "country": "United States",
+    "insight": "Captain America: Civil War is a 2016 superhero film that follows the Avengers as they are divided over the Sokovia Accords, leading to a clash between Iron Man and Captain America."
+  },
+  {
+    "id": 31,
+    "title": "Aquaman",
+    "release_year": 2018,
+    "director": "James Wan",
+    "box_office": 1152000000.0,
+    "country": "United States",
+    "insight": "Aquaman is a visually stunning superhero film that brings the underwater world of Atlantis to life."
+  },
+  {
+    "id": 32,
+    "title": "The Lord of the Rings: The Return of the King",
+    "release_year": 2003,
+    "director": "Peter Jackson",
+    "box_office": 1151000000.0,
+    "country": "New Zealand",
+    "insight": "The Lord of the Rings: The Return of the King is a critically acclaimed epic fantasy adventure that concludes the iconic trilogy."
+  },
+  {
+    "id": 33,
+    "title": "Spider-Man: Far From Home",
+    "release_year": 2019,
+    "director": "Jon Watts",
+    "box_office": 1133000000.0,
+    "country": "United States",
+    "insight": "Spider-Man: Far From Home is a 2019 superhero film that follows Peter Parker as he deals with the aftermath of Avengers: Endgame."
+  },
+  {
+    "id": 34,
+    "title": "Captain Marvel",
+    "release_year": 2019,
+    "director": "Anna Boden Ryan Fleck",
+    "box_office": 1131000000.0,
+    "country": "United States",
+    "insight": "Captain Marvel is a superhero film that follows the story of Carol Danvers, an Air Force pilot who gains superhuman abilities after being exposed to the energy of a powerful alien artifact."
+  },
+  {
+    "id": 35,
+    "title": "Transformers: Dark of the Moon",
+    "release_year": 2011,
+    "director": "Michael Bay",
+    "box_office": 1124000000.0,
+    "country": "United States",
+    "insight": "Transformers: Dark of the Moon is a 2011 science fiction action film that continues the battle between the Autobots and Decepticons in Chicago."
+  },
+  {
+    "id": 36,
+    "title": "Skyfall",
+    "release_year": 2012,
+    "director": "Sam Mendes",
+    "box_office": 1109000000.0,
+    "country": "United Kingdom",
+    "insight": "Skyfall is the 23rd James Bond film, directed by Sam Mendes, which follows Bond as he protects M from a former MI6 agent."
+  },
+  {
+    "id": 37,
+    "title": "Transformers: Age of Extinction",
+    "release_year": 2014,
+    "director": "Michael Bay",
+    "box_office": 1104000000.0,
+    "country": "United States",
+    "insight": "Transformers: Age of Extinction is a 2014 science fiction action film directed by Michael Bay that marks a new beginning in the Transformers franchise."
+  },
+  {
+    "id": 38,
+    "title": "The Dark Knight Rises",
+    "release_year": 2012,
+    "director": "Christopher Nolan",
+    "box_office": 1115000000.0,
+    "country": "United States",
+    "insight": "The Dark Knight Rises is an epic superhero thriller that concludes Christopher Nolan's acclaimed The Dark Knight Trilogy."
+  },
+  {
+    "id": 39,
+    "title": "Joker",
+    "release_year": 2019,
+    "director": "Todd Phillips",
+    "box_office": 1079000000.0,
+    "country": "United States",
+    "insight": "The 2019 film Joker is a psychological thriller that offers a haunting origin story of the iconic Batman villain."
+  },
+  {
+    "id": 40,
+    "title": "Star Wars: The Rise of Skywalker",
+    "release_year": 2019,
+    "director": "J. J. Abrams",
+    "box_office": 1077000000.0,
+    "country": "United States",
+    "insight": "The Rise of Skywalker concludes the Skywalker saga with an action-packed narrative that reunites familiar characters."
+  },
+  {
+    "id": 41,
+    "title": "Toy Story 4",
+    "release_year": 2019,
+    "director": "Josh Cooley",
+    "box_office": 1074000000.0,
+    "country": "United States",
+    "insight": "Toy Story 4 is a heartwarming animated adventure that explores Woody's journey as he adapts to new surroundings with his owner Bonnie."
+  },
+  {
+    "id": 42,
+    "title": "Toy Story 3",
+    "release_year": 2010,
+    "director": "Lee Unkrich",
+    "box_office": 1067000000.0,
+    "country": "United States",
+    "insight": "Toy Story 3 is a heartwarming animated film that explores the themes of friendship, growth, and letting go."
+  },
+  {
+    "id": 43,
+    "title": "Pirates of the Caribbean: Dead Man's Chest",
+    "release_year": 2006,
+    "director": "Gore Verbinski",
+    "box_office": 1066000000.0,
+    "country": "United States",
+    "insight": "Pirates of the Caribbean: Dead Man's Chest is a swashbuckling adventure that follows Captain Jack Sparrow as he tries to escape Davy Jones' locker."
+  },
+  {
+    "id": 44,
+    "title": "Rogue One: A Star Wars Story",
+    "release_year": 2016,
+    "director": "Gareth Edwards",
+    "box_office": 1059000000.0,
+    "country": "United States",
+    "insight": "Rogue One: A Star Wars Story is a standalone film that tells the story of the rebels who stole the Death Star plans, leading up to the events of the original Star Wars film."
+  },
+  {
+    "id": 45,
+    "title": "Moana 2",
+    "release_year": 2024,
+    "director": "David Derrick Jr., Jason Hand, Dana Ledoux Miller",
+    "box_office": 1050000000.0,
+    "country": "United States",
+    "insight": "Moana 2 is a highly anticipated animated film that has already achieved immense commercial success, grossing over $1 billion at the box office."
+  },
+  {
+    "id": 46,
+    "title": "Aladdin",
+    "release_year": 2019,
+    "director": "Guy Ritchie",
+    "box_office": 1054000000.0,
+    "country": "United States",
+    "insight": "The 2019 film Aladdin, directed by Guy Ritchie, is a live-action remake of the 1992 animated classic of the same name."
+  },
+  {
+    "id": 47,
+    "title": "Star Wars: Episode I \u2013 The Phantom Menace",
+    "release_year": 1999,
+    "director": "George Lucas",
+    "box_office": 1047000000.0,
+    "country": "United States",
+    "insight": "Star Wars: Episode I \u2013 The Phantom Menace is a space opera film that kicks off the prequel trilogy, set 32 years before the events of the original Star Wars film."
+  },
+  {
+    "id": 48,
+    "title": "Pirates of the Caribbean: On Stranger Tides",
+    "release_year": 2011,
+    "director": "Rob Marshall",
+    "box_office": 1046000000.0,
+    "country": "United States",
+    "insight": "Pirates of the Caribbean: On Stranger Tides is the fourth installment in the Pirates of the Caribbean series, where Captain Jack Sparrow searches for the Fountain of Youth."
+  },
+  {
+    "id": 49,
+    "title": "Jurassic Park",
+    "release_year": 1993,
+    "director": "Steven Spielberg",
+    "box_office": 1058000000.0,
+    "country": "United States",
+    "insight": "Jurassic Park revolutionized visual effects with its groundbreaking use of CGI, bringing dinosaurs to life on the big screen."
+  },
+  {
+    "id": 50,
+    "title": "Despicable Me 3",
+    "release_year": 2017,
+    "director": "Pierre Coffin Kyle Balda",
+    "box_office": 1035000000.0,
+    "country": "United States",
+    "insight": "Despicable Me 3 is an animated comedy film that follows Gru as he meets his long-lost twin brother Dru and teams up with him to take down a villain."
+  },
+  {
+    "id": 51,
+    "title": "Gone with the Wind",
+    "release_year": 1939,
+    "director": "Victor Fleming",
+    "box_office": 390000000.0,
+    "country": "United States",
+    "insight": "Gone with the Wind is a historical epic film set during the American Civil War and Reconstruction era."
+  },
+  {
+    "id": 54,
+    "title": "Star Wars",
+    "release_year": 1977,
+    "director": "George Lucas",
+    "box_office": 775400000.0,
+    "country": "United States",
+    "insight": "Star Wars revolutionized the science fiction film genre with its groundbreaking special effects and captivating storyline."
+  },
+  {
+    "id": 56,
+    "title": "The Sound of Music",
+    "release_year": 1965,
+    "director": "Robert Wise",
+    "box_office": 286200000.0,
+    "country": "United States",
+    "insight": "The Sound of Music is a heartwarming musical drama that tells the true story of the von Trapp Family Singers' escape from Austria during World War II."
+  },
+  {
+    "id": 57,
+    "title": "E.T. the Extra-Terrestrial",
+    "release_year": 1982,
+    "director": "Steven Spielberg",
+    "box_office": 797300000.0,
+    "country": "United States",
+    "insight": "E.T. the Extra-Terrestrial is a timeless classic about a young boy who befriends an alien stranded on Earth."
+  },
+  {
+    "id": 58,
+    "title": "The Ten Commandments",
+    "release_year": 1956,
+    "director": "Cecil B. DeMille",
+    "box_office": 122700000.0,
+    "country": "United States",
+    "insight": "The Ten Commandments, directed by Cecil B. DeMille, is an epic biblical drama film that retells the story of Moses and the Exodus."
+  },
+  {
+    "id": 59,
+    "title": "Doctor Zhivago",
+    "release_year": 1965,
+    "director": "David Lean",
+    "box_office": 111700000.0,
+    "country": "United States",
+    "insight": "Doctor Zhivago is a historical epic film set during the Russian Revolution, exploring themes of love, loss, and survival through the eyes of a physician-poet."
+  }
+]
