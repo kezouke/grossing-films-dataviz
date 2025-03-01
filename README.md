@@ -1,7 +1,3 @@
-Below is an updated README incorporating **emojis** to add a bit more flair and personality. Adjust as you see fit!
-
----
-
 # Highest-Grossing Films Dashboard 🎬
 
 A comprehensive project that **scrapes Wikipedia** 🕵️‍♂️, **cleans and stores film data** in a database, and **presents** it through an interactive, dark-themed **web dashboard** hosted on GitHub Pages. The web page includes multiple charts 📊, key statistics, and an interactive table with insights for each film.
